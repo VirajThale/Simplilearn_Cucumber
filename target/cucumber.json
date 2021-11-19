@@ -1,0 +1,132 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2982698657,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has navigated to the Login Page",
+            "match": {
+              "location": "LoginStepDefs.user_has_navigated_to_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-19T06:41:36.218Z",
+        "before": [
+          {
+            "result": {
+              "duration": 958802141,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Positive Login Scenario",
+        "description": "",
+        "id": "login-feature;positive-login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 70642016,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1958390413,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user has navigated to the Login Page",
+            "match": {
+              "location": "LoginStepDefs.user_has_navigated_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 439897246,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter correct username and password",
+            "match": {
+              "location": "LoginStepDefs.user_enter_correct_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 203288707,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on Login Button",
+            "match": {
+              "location": "LoginStepDefs.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 444429,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should be exit",
+            "match": {
+              "location": "LoginStepDefs.user_should_be_exit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": [
+      {
+        "name": "@LoginFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 2
+        }
+      }
+    ]
+  }
+]
